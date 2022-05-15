@@ -42,6 +42,11 @@ body{
     font-weight: bold;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 main{
     width: 100%;
     display: flex;
@@ -176,6 +181,10 @@ main{
     height: 40px;
 }
 
+button:focus{
+    filter: grayscale(80%);
+ }
+
 #modulo_descricao{
     margin: 40px 0;
     width: 100%;
@@ -243,4 +252,21 @@ footer > div > .reservado{
     border-top: solid 1px #2D2D2D;
     text-align: center;
     padding-top: 15px;
+}
+
+h4.importante{
+    font-weight: bold;
+}
+
+#modulo_descricao{
+    padding: 20px;
+}
+
+#modulo_descricao ul{
+    margin-top: 20px;
+}
+
+#modulo_descricao ul li{
+    list-style: disc;
+    margin-left: 20px;
 }

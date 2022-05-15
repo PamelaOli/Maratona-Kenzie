@@ -1,6 +1,7 @@
 function pegarCardInformacoes() {
     //Procurar no meu documento HTML, um element com esse ID:""
     const cardInformacoes = document.getElementById("modulo_descricao")
+    //Limpar o HTML e executar de novo
     cardInformacoes.innerHTML = "";
 
     //Procurar meu documento HTML e criar nele um elemento: ""
